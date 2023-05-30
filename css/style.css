@@ -147,15 +147,28 @@ form {
     font-size: 0.7rem;
     margin-bottom: 60px;
     margin-right: 80px;
-    gap: 5px;
+    gap: 3px;
 }
 
+.errorDisplay {
+    margin-top: 5px;
+    color: red;
+}
+
+
 .input input {
-    border: groove;
+    border: groove #E5E7EB 2px;
     border-radius: 5px;
     height: 35px;
     width: 250px;
+    outline: none;
 }
+
+.input input:focus {
+    border: 1px rgb(98, 98, 205) solid;
+    box-shadow: 1.5px 1.5px 3px rgb(154, 150, 150);
+}
+
 
 /* bottom */
 
@@ -173,7 +186,7 @@ form {
     border-radius: 7px;
     border: none;
     color: white;
-    background-color: green;
+    background-color: #596D48;
     padding: 10px 0px;
     font-weight: bold;
     width: 200px;
